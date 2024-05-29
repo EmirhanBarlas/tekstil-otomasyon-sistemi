@@ -4,10 +4,12 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 
 ## Özellikler
 
-- Ürün yönetimi: Ürünlerin isimleri, barkodları ve stok miktarları gibi bilgileri yönetebilirsiniz.
-- Stok takibi: Stoktaki ürün miktarlarını izleyebilir ve güncelleyebilirsiniz.
-- Sipariş yönetimi: Müşteri siparişlerini alabilir, işleyebilir ve takip edebilirsiniz.
-- Raporlama: Satış raporları, stok durumu raporları gibi çeşitli raporlar oluşturabilirsiniz.
+- **Ürün Yönetimi:** Ürünlerin isimleri, barkodları ve stok miktarları gibi bilgileri yönetebilirsiniz.
+- **Stok Takibi:** Stoktaki ürün miktarlarını izleyebilir ve güncelleyebilirsiniz.
+- **Sipariş Yönetimi:** Müşteri siparişlerini alabilir, işleyebilir ve takip edebilirsiniz.
+- **Kumaş Yönetimi:** Kumaşların kimden, nereden, ne zaman geldiği ve kaç metre olduğu gibi bilgileri yönetebilirsiniz.
+- **Tedarikçi Yönetimi:** Tedarikçi bilgilerini yönetebilir ve izleyebilirsiniz.
+- **Raporlama:** Satış raporları, stok durumu raporları gibi çeşitli raporlar oluşturabilirsiniz.
 
 ## Kurulum
 
