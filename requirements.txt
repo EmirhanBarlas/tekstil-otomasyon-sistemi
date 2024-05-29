@@ -1,0 +1,2 @@
+bash pip install python-barcode
+bash pip install Pillow
