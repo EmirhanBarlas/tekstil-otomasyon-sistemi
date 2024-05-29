@@ -14,7 +14,7 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 1. Projeyi klonlayın:
 
     ```bash
-    git clone https://github.com/kullanici/tekstil-otomasyon-sistemi.git
+    git clone https://github.com/EmirhanBarlas/tekstil-otomasyon-sistemi.git
     ```
 
 2. Proje dizinine gidin:
