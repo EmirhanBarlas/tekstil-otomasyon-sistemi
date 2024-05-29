@@ -9,6 +9,7 @@ def main():
     barcode_gen = BarcodeGenerator()
     product_name = input("Ürün adı: ")
     product_code = input("Ürün kodu (barkod için): ")
+    # Beta aşamasındadır daha fazla özellik ekleyeceğim zamanla...
     barcode_file = barcode_gen.generate_barcode(product_code, f"barcodes/{product_code}")
     db.add_product(product_name, product_code)
     print(f"Barkod oluşturuldu ve {barcode_file} dosyasına kaydedildi.")
