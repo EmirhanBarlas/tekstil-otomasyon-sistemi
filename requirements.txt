@@ -1,2 +1,4 @@
-bash pip install python-barcode
-bash pip install Pillow
+python-barcode
+Pillow
+sqlite3
+ImageWriter
