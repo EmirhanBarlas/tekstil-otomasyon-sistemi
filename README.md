@@ -11,6 +11,9 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 - **Tedarikçi Yönetimi:** Tedarikçi bilgilerini yönetebilir ve izleyebilirsiniz.
 - **Raporlama:** Satış raporları, stok durumu raporları gibi çeşitli raporlar oluşturabilirsiniz.
 
+![image](https://github.com/EmirhanBarlas/tekstil-otomasyon-sistemi/assets/133690166/a1e85938-fcb5-4592-a0b6-5666c207b709)
+
+
 ## Kurulum
 
 1. Projeyi klonlayın:
