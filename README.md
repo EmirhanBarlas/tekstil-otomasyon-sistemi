@@ -10,6 +10,7 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 - **Kumaş Yönetimi:** Kumaşların kimden, nereden, ne zaman geldiği ve kaç metre olduğu gibi bilgileri yönetebilirsiniz.
 - **Tedarikçi Yönetimi:** Tedarikçi bilgilerini yönetebilir ve izleyebilirsiniz.
 - **Raporlama:** Satış raporları, stok durumu raporları gibi çeşitli raporlar oluşturabilirsiniz.
+- **Veri Çıktısı Alma:** Yaml veya Excel (.xlsx) olarak çıktı alabilme imkanı.
 
 ![image](https://github.com/EmirhanBarlas/tekstil-otomasyon-sistemi/assets/133690166/a1e85938-fcb5-4592-a0b6-5666c207b709)
 
