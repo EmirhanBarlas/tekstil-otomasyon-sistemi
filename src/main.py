@@ -6,6 +6,13 @@ def main():
     # Barkodları saklamak için klasör oluştur
     if not os.path.exists('barcodes'):
         os.makedirs('barcodes')
+
+    # Excel dosyalarını saklamak için klasör oluştur
+    if not os.path.exists('excels'):
+        os.makedirs('excels')
+
+    if not os.path.exists('yamls'):
+            os.makedirs('yamls')
     
     # Veritabanı ve barkod oluşturucu nesnelerini başlat
     db = Database('products.db')
@@ -16,7 +23,9 @@ def main():
         print("2. Tedarikçi Ekle")
         print("3. Kumaş Ekle")
         print("4. Kumaşları Görüntüle")
-        print("5. Çıkış")
+        print("5. Excel Dosyası olarak çıktı al")
+        print("6. Yaml Dosyası olarak çıktı al")
+        print("7. Çıkış")
         choice = input("Seçiminiz: ")
 
         if choice == '1':
@@ -56,6 +65,14 @@ def main():
                 print("-" * 20)
 
         elif choice == '5':
+            db.export_to_excel()
+            print("Excel dosyası oluşturuldu.")
+
+        elif choice == '6':
+            db.export_to_yaml()
+            print("YAML dosyası oluşturuldu.")
+
+        elif choice == '7':
             break
 
         else:

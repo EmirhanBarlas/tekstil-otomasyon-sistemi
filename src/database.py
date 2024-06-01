@@ -1,4 +1,9 @@
+# Sqlite veritabanına yapılan işlemleri kayıt edicek olan database.py dosyası.
+
 import sqlite3
+import pandas as pd
+import os
+import yaml
 
 class Database:
     def __init__(self, db_name):
@@ -63,6 +68,26 @@ class Database:
     def get_all_fabrics(self):
         self.cursor.execute("SELECT * FROM fabrics")
         return self.cursor.fetchall()
+    
+
+    def export_to_excel(self):
+        fabrics = self.get_all_fabrics()
+        df = pd.DataFrame(fabrics, columns=["ID", "Supplier ID", "Type", "Quantity", "Arrival Date", "Source"])
+        df.to_excel("excels/fabrics.xlsx", index=False)
+
+    def export_to_yaml(self):
+        fabrics = self.get_all_fabrics()
+        fabrics_list = [
+            {
+                "ID": fabric[0],
+                "Supplier ID": fabric[1],
+                "Type": fabric[2],
+                "Quantity": fabric[3],
+                "Arrival Date": fabric[4],
+                "Source": fabric[5],
+            }
+            for fabric in fabrics
+        ]
 
     def close(self):
         self.connection.close()

@@ -2,3 +2,7 @@ python-barcode
 Pillow
 sqlite3
 ImageWriter
+pandas
+treepoem
+openpyxl
+PyYAML

@@ -9,4 +9,4 @@ class BarcodeGenerator:
         BARCODE = barcode.get_barcode_class(self.barcode_type)
         barcode_instance = BARCODE(data, writer=ImageWriter())
         barcode_instance.save(output_file)
-        return f"{output_file}.png"
+        return f"{output_file}.png" # Barkod çıktısını png olarak gönderme işlemi
