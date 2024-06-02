@@ -2,6 +2,7 @@
 
 import sqlite3
 import pandas as pd
+import yaml
 
 class Database:
     def __init__(self, db_name):
@@ -87,6 +88,8 @@ class Database:
             }
             for fabric in fabrics
         ]
+        with open("yamls/fabrics.yaml", "w") as f:
+            yaml.dump(fabrics_list, f)
 
     def close(self):
         self.connection.close()
