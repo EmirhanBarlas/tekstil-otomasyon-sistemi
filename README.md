@@ -10,6 +10,12 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 - **Kumaş Yönetimi:** Kumaşların kimden, nereden, ne zaman geldiği ve kaç metre olduğu gibi bilgileri yönetebilirsiniz.
 - **Tedarikçi Yönetimi:** Tedarikçi bilgilerini yönetebilir ve izleyebilirsiniz.
 - **Raporlama:** Satış raporları, stok durumu raporları gibi çeşitli raporlar oluşturabilirsiniz.
+- **Veri Çıktısı Alma:** Yaml veya Excel (.xlsx) olarak çıktı alabilme imkanı.
+
+![image](https://github.com/EmirhanBarlas/tekstil-otomasyon-sistemi/assets/133690166/a1e85938-fcb5-4592-a0b6-5666c207b709)
+## SQL VERİTABANI HARİTASI
+
+![image](https://github.com/EmirhanBarlas/tekstil-otomasyon-sistemi/assets/133690166/6e000a75-bb10-4806-ae68-f59e344eb4e7)
 
 ## Kurulum
 
@@ -34,7 +40,7 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 4. Veritabanını oluşturun:
 
     ```bash
-    python setup.py
+    python main.py
     ```
 
 ## Dosya Yapısı
