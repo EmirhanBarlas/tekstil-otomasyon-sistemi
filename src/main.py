@@ -1,21 +1,21 @@
-from database import Database
 from Barcod_generator import BarcodeGenerator
+from Database import Database
 import os
 
 def main():
+
     # Barkodları saklamak için klasör oluştur
     if not os.path.exists('barcodes'):
         os.makedirs('barcodes')
-
     # Excel dosyalarını saklamak için klasör oluştur
     if not os.path.exists('excels'):
         os.makedirs('excels')
-
+    # Yaml dosyalarını saklamak için klasör oluştur
     if not os.path.exists('yamls'):
             os.makedirs('yamls')
     
     # Veritabanı ve barkod oluşturucu nesnelerini başlat
-    db = Database('products.db')
+    db = Database('database.db')
     barcode_gen = BarcodeGenerator()
 
     while True:

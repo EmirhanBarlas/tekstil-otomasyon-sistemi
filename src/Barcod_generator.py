@@ -1,3 +1,4 @@
+## Barkod oluşturma işlemlerini yöneten dosya
 import barcode
 from barcode.writer import ImageWriter
 

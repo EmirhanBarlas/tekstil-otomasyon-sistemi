@@ -2,8 +2,6 @@
 
 import sqlite3
 import pandas as pd
-import os
-import yaml
 
 class Database:
     def __init__(self, db_name):
@@ -11,6 +9,7 @@ class Database:
         self.cursor = self.connection.cursor()
         self.create_tables()
 
+    # sqlite veritabanında tablo yoksa eğer tabloyu oluşturucak olan create_tables fonksiyonu.
     def create_tables(self):
         self.cursor.execute("""
         CREATE TABLE IF NOT EXISTS products (
