@@ -40,7 +40,7 @@ Tekstil Otomasyon Sistemi, tekstil atölyeleri için geliştirilmiş bir otomasy
 4. Veritabanını oluşturun:
 
     ```bash
-    python setup.py
+    python main.py
     ```
 
 ## Dosya Yapısı
